@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "pretty": true,
+    "types": ["node"],
+    "skipLibCheck": true,
+    "lib": ["es2017", "dom", "es2018"],
+    "module": "esnext",
+    "target": "es5",
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "strictNullChecks": true,
+    "allowJs": true,
+    "checkJs": true,
+    "resolveJsonModule": true,
+    "jsx": "react",
+    "baseUrl": ".",
+  },
+  "include": [
+    "./type.d/**/*.ts",
+    "./src/**/*",
+    "./**/__tests__/**/*.ts"
+  ],
+  "exclude": ["node_modules"]
+}
